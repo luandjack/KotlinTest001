@@ -44,6 +44,16 @@ class MainActivity : AppCompatActivity() {
     private fun button2ClickEvent(){
         println( "...................button2 clicked" )
         textView.text = null
+
+        val count = this.bucketList.count()
+
+        if( count > 0 ){
+            val random = ( Math.random() * count ).toInt()
+            println( random )
+
+        }else{
+            println( "................count:${count}"  )
+        }
     }
 
 }
