@@ -138,6 +138,7 @@ fun main(args: Array<String>) {
     test19()
     test20()
     test21()
+
 }
 
 fun String.clearDash():String{
